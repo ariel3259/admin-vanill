@@ -1,0 +1,55 @@
+
+.container {
+    background-color: black;
+}
+
+.container__login {
+    border: 2.5px solid darkmagenta;
+    border-radius: 10px;
+    padding: 40px;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-self: center;
+    flex-direction: column;
+    background: black;
+}
+
+.container__input_field {
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    color: white;
+    margin: 10px 0;
+}
+input {
+    height: 35px;
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 5px solid darkmagenta;
+}
+
+#container__login_btn_signin {
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    background: black;
+    color: white;
+    margin: 20px auto;
+    border: 3px solid darkmagenta;
+    border-radius: 25px;
+    transition:all 0.25s;
+}
+
+#container__login_btn_signin:hover{
+    color: darkmagenta;
+}
